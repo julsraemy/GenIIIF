@@ -3,15 +3,18 @@ The IIIF ([International Image Interoperability Framework](https://iiif.io/)) Re
 
 ## Rationale
 At the moment, the PIA infrastructure, though the deployment of the Simple Image Presentation Interface ([SIPI](https://sipi.io/)), supports the IIIF Image API 3.0 but the idea is to deploy further IIIF APIs, above all the IIIF Presentation API 3.0 in oder to display the digital resources (objects and collections) in IIIF-compliant viewers such as Mirador or the Universal Viewer. 
-If a couple of IIIF Manifests were manually created for showcase purposes, a semi-automatic way to create those IIIF resources need to be found.
+If a couple of IIIF Manifests were manually created for showcase purposes, a semi-automatic way to create those IIIF resources needs to be found.
 
 ## Use cases
-Gen IIIF will handle these four easy use cases:
+Gen IIIF will handle these four straightforward use cases:
 
 - Manifest with a single image
 - Manifest with a series of images
 - Collection of manifests
 - Collection of collections (top-level collection)
+
+## Usage
+TBD
 
 ## References
 - [IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/)
