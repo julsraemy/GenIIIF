@@ -1,2 +1,2 @@
 # GenIIIF
-IIIF Resources Generator
+IIIF Resources Generator created in the context of a university seminar. 
