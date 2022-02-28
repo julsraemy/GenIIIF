@@ -6,14 +6,12 @@ At the moment, the PIA infrastructure, though the deployment of the Simple Image
 If a couple of IIIF Manifests were manually created for showcase purposes, a semi-automatic way to create those IIIF resources needs to be found.
 
 ## IIIF-compliant resources
-IIIF-compliant resources are serialised in JSON-LD. They are different resource types (cf. Data Model below). 
+IIIF-compliant resources are serialised in [JSON-LD](https://json-ld.org/). From the different types (cf. Data Model below), there are two important ones (`Manifest` and `Collection`): 
+
+- `Manifest` are the equivalent of a compound object and contain the descriptive metadata as well as the structure, descrived with `Ranges`, of how the object is composed by pointing to image-based content (images and audiovisual assets) embedded in an abstract space called a `Canvas` - either static content or deferencing to a digital service compliant with the IIIF Image APIs (V2 or 3) can be included.
+- `Collection` is an ordered list of Manifests or Collections. 
 
 ![IIIF Data Model](https://iiif.io/api/assets/images/data-model.png)
-
-The two most important ones are  `Manifest` and `Collection`.
-
-- `Manifest` are the equivalent of a compound object and contain the descriptive metadata as well as the structure of how the object is composed by pointing to image-based content (images and audiovisual assets) embedded in an abstract space called a `Canvas` - either static content or deferencing to a digital service compliant with the IIIF Image APIs (V2 or 3) can be included.
-- `Collection` is an ordered list of Manifests or Collections. 
 
 ## Scope
 ### Use cases
@@ -24,13 +22,23 @@ Gen IIIF will handle these four straightforward use cases:
 3. Collection of manifests
 4. Collection of collections (top-level collection)
 
-### Methods
-Several methods will be conceived to create IIIF-compliant resources: 
+For each use case, [fixtures](fixtures/fixtures.md) and [templates](templates/templates.md) will be generated.
 
-- Extraction from a CSV
-- Filling out a form on a minimalist graphical user interface (GUI)
+### Method
+The conceived method to create IIIF-compliant resources is to create a form on a minimalist graphical user interface (GUI) that end users would have to fill out.
+
+Another alternative methods that could be created is to extract the metadata from a CSV or a database.
 
 ### Usage of Gen IIIF
+TBD
+
+#### Dependencies
+TBD
+
+#### Steps
+TBD
+
+#### Examples
 TBD
 
 ## References
