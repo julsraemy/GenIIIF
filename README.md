@@ -33,7 +33,7 @@ Another alternative methods that could be created is to extract the metadata fro
 TBD
 
 #### Dependencies
-TBD
+[Tkinter](https://realpython.com/python-gui-tkinter/)
 
 #### Steps
 TBD
