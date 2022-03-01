@@ -35,6 +35,12 @@ TBD
 #### Dependencies
 [Tkinter](https://realpython.com/python-gui-tkinter/)
 
+To install the requirements:
+
+```bash
+pip3 install -r requirements.txt
+```
+
 #### Steps
 TBD
 
