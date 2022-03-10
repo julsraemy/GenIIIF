@@ -15,7 +15,7 @@ IIIF-compliant resources are serialised in [JSON-LD](https://json-ld.org/). From
 
 ## Scope
 ### Use cases
-Gen IIIF will handle these four straightforward use cases:
+GenIIIF will handle these four straightforward use cases:
 
 1. Manifest with a single image
 2. Manifest with a series of images
@@ -45,7 +45,7 @@ TBD
 #### Extraction of structured metadata
 An another alternative method that could be created is to extract the metadata from a CSV or a database.
 
-### Usage of Gen IIIF
+### Usage of GenIIIF
 TBD
 
 #### Dependencies
