@@ -8,7 +8,7 @@ If a couple of IIIF Manifests were manually created for showcase purposes, a sem
 ## IIIF-compliant resources
 IIIF-compliant resources are serialised in [JSON-LD](https://json-ld.org/). From the different types (cf. Data Model below), there are two important ones (`Manifest` and `Collection`): 
 
-- `Manifest` are the equivalent of a compound object and contain the descriptive metadata as well as the structure, described with `Ranges`, of how the object is composed by pointing to image-based content (images and audiovisual assets) embedded in an abstract space called a `Canvas` - either static content or dereferencing to a digital service compliant with the IIIF Image APIs (V2 or 3) can be included.
+- `Manifest` are the equivalent of a compound object and contain the descriptive metadata as well as the structure, described with `Ranges`, of how the object is composed by pointing to image-based content (images and audiovisual assets) embedded or painted onto an abstract space called a `Canvas` - either static content available online or content that is dereferenced from a digital service compliant with the IIIF Image APIs (V2.1 or V3) can be included.
 - `Collection` is an ordered list of Manifests or Collections. 
 
 ![IIIF Data Model](https://iiif.io/api/assets/images/data-model.png)
