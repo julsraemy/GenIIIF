@@ -1,4 +1,7 @@
 import tkinter as tk
 
-greeting = tk.Label(text="Hello, Tkinter")
-greeting.pack()
+window = tk.Tk()
+label = tk.Label(text="Let's generate IIIF resources")
+label.pack()
+
+window.mainloop()
