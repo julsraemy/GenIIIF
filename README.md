@@ -43,7 +43,7 @@ Following the wording of [the IIIF Presentation API 3.0](https://iiif.io/api/pre
 TBD
 
 #### Extraction of structured metadata
-An second alternative method which will be later created is to extract the (descriptive, structural and legal) metadata from a CSV or a database.
+A second alternative method which will be later created is to extract the (descriptive, structural and legal) metadata from a CSV or a database.
 
 ### Usage of GenIIIF
 TBD
