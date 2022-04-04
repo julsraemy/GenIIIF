@@ -13,10 +13,22 @@ idText.set("What is the URL of the IIIF resource?")
 idDir=Label(window, textvariable=idText, height=4)
 idDir.pack(side="left")
 
-directory=StringVar(None)
-id=Entry(window,textvariable=directory,width=50)
+directory1=StringVar(None)
+id=Entry(window,textvariable=directory1,width=50)
 id.insert(0, "https://")
 id.pack(side="left")
+
+# Summary of the IIIF resource
+
+summaryText=StringVar()
+summaryText.set("What is the summary?")
+summaryDir=Label(window, textvariable=summaryText, height=4)
+summaryDir.pack(side="left")
+
+directory2=StringVar(None)
+summary=Entry(window,textvariable=directory2,width=50)
+summary.insert(0, "This is the summary")
+summary.pack(side="left")
 
 # Manifest or Collection (context and type)
 
