@@ -1,12 +1,19 @@
-import tkinter as tk
+from tkinter import *
+from tkinter.ttk import Combobox
 
-window = tk.Tk()
-label = tk.Label(text="Let's generate IIIF resources")
+window = Tk()
+
+label = Label(text="Let's generate IIIF resources")
 label.pack()
 
-entry = tk.Entry(width=40, bg="white", fg="black")
-entry.pack()
+var = StringVar()
+var.set("IIIF Manifest")
+data=("IIIF Manifest", "IIIF Collection")
+cb=Combobox(window, values=data)
+cb.place(x=20, y=60)
 
-entry.insert(0, "What is your name?")
+## entry = Entry(width=40, bg="white", fg="black")
+## entry.pack()
+## entry.insert(0, "What is your name?")
 
 window.mainloop()
