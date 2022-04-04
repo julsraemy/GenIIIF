@@ -55,3 +55,7 @@ TBD
 - [IIIF Fixtures Repository](https://fixtures.iiif.io/)
 - [The IIIF Cookbook](https://iiif.io/api/cookbook/)
 - [iiif-prezi3](https://github.com/iiif-prezi/iiif-prezi3)
+
+## Citation
+Raemy, J. A. (2022). GenIIIF (Version 0.1.0) [Computer software]. [![DOI](https://zenodo.org/badge/461769496.svg)](https://zenodo.org/badge/latestdoi/461769496)
+
