@@ -28,20 +28,6 @@ For each use case, [fixtures](fixtures/fixtures.md) and [templates](templates/te
 #### Simple GUI
 The main method to create IIIF-compliant resources is to create a form on a minimalist graphical user interface (GUI) that end users would have to fill out. 
 
-##### IIIF Manifest
-
-Following the wording of [the IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/#52-manifest), the form for use cases 1 and 2, concerning to the generation of IIIF Manifests, is broken into the following parts.
-
-1. Metadata about the IIIF resource (`context`, `id`, `type`)
-2. Descriptive Metadata about the object
-3. Presentation information (such as `viewing Direction`)
-4. Rights Information (`rights`, `requiredStatement`, `logo`)
-5. Related links (`homepage`, `seeAlso`, `rendering`, `start`, etc.)
-6. List of Canvases (`items`)
-
-##### IIIF Collection
-TBD
-
 #### Extraction of structured metadata
 A second alternative method which will be later created is to extract the (descriptive, structural and legal) metadata from a CSV or a database.
 
