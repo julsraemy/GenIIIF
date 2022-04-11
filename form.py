@@ -45,6 +45,8 @@ summary.pack(side="left")
 ##    metadataEntry = Entry(window)
 ##    metadataEntry.grid(row=0, column=x, pady=20, padx=5)
 
+# Combobox
+
 ## var = StringVar()
 ## var.set("IIIF Manifest")
 ## data=("IIIF Manifest", "IIIF Collection")
