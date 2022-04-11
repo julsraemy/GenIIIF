@@ -32,8 +32,8 @@ summary.pack(side="left")
 
 # Descriptive metadata 
 
-## for x in range(5):
-##    metadataEntry = Entry()
+## for x in range(5):
+##    metadataEntry = Entry(window)
 ##    metadataEntry.grid(row=0, column=x, pady=20, padx=5)
 
 # Manifest or Collection (context and type)
