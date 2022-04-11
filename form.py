@@ -6,6 +6,15 @@ window = Tk()
 label = Label(text="Let's generate IIIF resources")
 label.pack()
 
+# Manifest or Collection (context and type)
+
+v0=IntVar()
+v0.set(1)
+r1=Radiobutton(window, text="IIIF Manifest", variable=v0,value=1)
+r2=Radiobutton(window, text="IIIF Collection", variable=v0,value=2)
+r1.pack()
+r2.pack()
+
 # ID (URL) of the IIIF resource
 
 idText=StringVar()
@@ -35,15 +44,6 @@ summary.pack(side="left")
 ## for x in range(5):
 ##    metadataEntry = Entry(window)
 ##    metadataEntry.grid(row=0, column=x, pady=20, padx=5)
-
-# Manifest or Collection (context and type)
-
-v0=IntVar()
-v0.set(1)
-r1=Radiobutton(window, text="IIIF Manifest", variable=v0,value=1)
-r2=Radiobutton(window, text="IIIF Collection", variable=v0,value=2)
-r1.pack()
-r2.pack()
 
 ## var = StringVar()
 ## var.set("IIIF Manifest")
