@@ -30,7 +30,7 @@ summary=Entry(window,textvariable=directory2,width=50)
 summary.insert(0, "This is the summary")
 summary.pack(side="left")
 
-# Descriptive metadata
+# Descriptive metadata 
 
 ## for x in range(5):
 ##    metadataEntry = Entry()
