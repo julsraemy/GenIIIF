@@ -7,12 +7,57 @@ At the moment, the PIA infrastructure, though the deployment of the Simple Image
 The purpose of GenIIIF is for (saavy) end users to create custom IIIF Collections.
 
 ## IIIF-compliant resources
-IIIF-compliant resources are serialised in [JSON-LD](https://json-ld.org/). From the different types (cf. Data Model below), there are two important ones (`Manifest` and `Collection`): 
+IIIF-compliant resources are serialised in [JSON-LD](https://json-ld.org/). From the different types (cf. [IIIF Data Model](https://iiif.io/api/assets/images/data-model.png)), there are two important ones (`Manifest` and `Collection`: 
 
 - `Manifest` are the equivalent of a compound object and contain the descriptive metadata as well as the structure, described with `Ranges`, of how the object is composed by pointing to image-based content (images and audiovisual assets) embedded or painted onto an abstract space called a `Canvas` - either static content available online or content that is dereferenced from a digital service compliant with the IIIF Image APIs (V2.1 or V3) can be included.
-- `Collection` is an ordered list of Manifests or Collections. 
+- `Collection` is an ordered list of Manifests or Collections which looks like this: 
 
-![IIIF Data Model](https://iiif.io/api/assets/images/data-model.png)
+```
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": {
+      "de": [
+        "Label Collection of Manifests"
+      ]
+    },
+    "summary": {
+        "en": [
+          "IIIF Collection of Manifests"
+        ]
+      },
+    "items": [
+      {
+        "id": "https://example.com/001/manifest.json",
+        "type": "Manifest",
+        "label": {
+          "de": [
+            "Label Manifest 1"
+          ]
+        }
+      },
+      {
+        "id": "https://example.com/002/manifest.json",
+        "type": "Manifest",
+        "label": {
+          "de": [
+            "Label Manifest 2"
+          ]
+        }
+      },
+            {
+        "id": "https://example.com/003/manifest.json",
+        "type": "Manifest",
+        "label": {
+          "de": [
+            "Label Manifest 3"
+          ]
+        }
+      }
+    ]
+  }
+```
 
 ## Scope
 Adaptation of Leander Seige's [iiifcurator](https://github.com/leanderseige/iiifcurator) which can handle the Presentation API V3 (only V2 at the moment).
