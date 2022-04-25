@@ -1,9 +1,10 @@
-# GenIIIF
-The IIIF ([International Image Interoperability Framework](https://iiif.io/)) Resources Generator (GenIIIF) has been created in the context of the seminar _Angewandte Programmierprojekte_ at the University of Basel and also for the needs of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) project.
+# IIIF Collections Generator
+The IIIF ([International Image Interoperability Framework](https://iiif.io/)) Collections Generator (GenIIIF) has been created in the context of the seminar _Angewandte Programmierprojekte_ at the University of Basel and also for the needs of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) project.
 
 ## Rationale
-At the moment, the PIA infrastructure, though the deployment of the Simple Image Presentation Interface ([SIPI](https://sipi.io/)), supports the IIIF Image API 3.0 but the idea is to deploy further IIIF APIs, above all the IIIF Presentation API 3.0 in oder to display the digital resources (objects and collections) in IIIF-compliant viewers such as Mirador or the Universal Viewer. 
-If a couple of IIIF Manifests were manually created for showcase purposes, a semi-automatic way to create those IIIF resources needs to be found.
+At the moment, the PIA infrastructure, though the deployment of the Simple Image Presentation Interface ([SIPI](https://sipi.io/)), supports the IIIF Image API 3.0 as well the IIIF Presentation API 3.0 to some extent where [IIIF Manifests have been generated](https://github.com/Participatory-Image-Archives/pia-iiif-manifest-host) on the basis of existing digital surrogates from the Swiss Society for Folklore Studies (SSFS) such as `https://iiif.participatory-archives.ch/14759/manifest.json`. 
+
+The purpose of GenIIIF is for (saavy) end users to create custom IIIF Collections.
 
 ## IIIF-compliant resources
 IIIF-compliant resources are serialised in [JSON-LD](https://json-ld.org/). From the different types (cf. Data Model below), there are two important ones (`Manifest` and `Collection`): 
@@ -14,42 +15,10 @@ IIIF-compliant resources are serialised in [JSON-LD](https://json-ld.org/). From
 ![IIIF Data Model](https://iiif.io/api/assets/images/data-model.png)
 
 ## Scope
-### Use cases
-GenIIIF will handle these four straightforward use cases:
-
-1. Manifest with a single image
-2. Manifest with a series of images
-3. Collection of manifests
-4. Collection of collections (top-level collection)
-
-For each use case, [fixtures](fixtures/fixtures.md) and [templates](templates/templates.md) will be generated.
-
-### Methods
-#### Simple GUI
-The main method to create IIIF-compliant resources is to create a form on a minimalist graphical user interface (GUI) that end users would have to fill out. 
-
-#### Extraction of structured metadata
-A second alternative method which will be later created is to extract the (descriptive, structural and legal) metadata from a CSV or a database.
-
-### Usage of GenIIIF
-TBD
-
-#### Dependencies
-[Tkinter](https://realpython.com/python-gui-tkinter/)
-
-To install the requirements:
-
-```bash
-pip3 install -r requirements.txt
-```
-
-#### Steps
-TBD
-
-#### Examples
-TBD
+Adaptation of Leander Seige's [iiifcurator](https://github.com/leanderseige/iiifcurator) which can handle the Presentation API V3 (only V2 at the moment).
 
 ## References
+- [iiifcurator](https://github.com/leanderseige/iiifcurator)
 - [IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/)
 - [Presentation API Validator](https://presentation-validator.iiif.io/)
 - [IIIF Fixtures Repository](https://fixtures.iiif.io/)
