@@ -4,7 +4,7 @@ The IIIF ([International Image Interoperability Framework](https://iiif.io/)) Co
 ## Rationale
 At the moment, the PIA infrastructure, though the deployment of the Simple Image Presentation Interface ([SIPI](https://sipi.io/)), supports the IIIF Image API 3.0 as well the IIIF Presentation API 3.0 to some extent where [IIIF Manifests have been generated](https://github.com/Participatory-Image-Archives/pia-iiif-manifest-host) on the basis of existing digital surrogates from the Swiss Society for Folklore Studies (SSFS) such as `https://iiif.participatory-archives.ch/14759/manifest.json`. 
 
-The purpose of GenIIIF is for (saavy) end users to create custom IIIF Collections.
+The purpose of GenIIIF is for (savvy) end users to create custom IIIF Collections.
 
 ## IIIF-compliant resources
 IIIF-compliant resources are serialised in [JSON-LD](https://json-ld.org/). From the different types (cf. [Defined Types of the IIIF Data Model]https://iiif.io/api/presentation/3.0/#21-defined-types)), there are two important ones (`Manifest` and `Collection`: 
@@ -72,4 +72,3 @@ Adaptation of Leander Seige's [iiifcurator](https://github.com/leanderseige/iiif
 
 ## Citation
 Raemy, J. A. (2022). GenIIIF (Version 0.1.0) [Computer software]. [![DOI](https://zenodo.org/badge/461769496.svg)](https://zenodo.org/badge/latestdoi/461769496)
-
