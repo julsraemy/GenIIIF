@@ -4,12 +4,12 @@
     "type": "Collection",
     "label": {
       "de": [
-        "Label Collection of Manifests"
+        "IIIF Manifests aus der Sammlung SGV_10 (Familie Kreis)"
       ]
     },
     "summary": {
         "en": [
-          "IIIF Collection of Manifests from the SSFS"
+          "IIIF Collection of Manifests from the SGV_10 Familie Kreis Collection"
         ]
       },
       "provider": [
@@ -62,20 +62,29 @@
       ],
     "items": [
       {
-        "id": "https://raw.githubusercontent.com/Participatory-Image-Archives/pia-data-model/main/iiif/boilerplates/manifest_boilerplate01.json",
+        "id": "https://iiif.participatory-archives.ch/1/manifest.json",
         "type": "Manifest",
         "label": {
           "de": [
-            "Label 1"
+            "[Porträt von Hermann Kreis]"
           ]
         }
       },
       {
-        "id": "https://raw.githubusercontent.com/Participatory-Image-Archives/pia-data-model/main/iiif/boilerplates/manifest_boilerplate02.json",
+        "id": "https://iiif.participatory-archives.ch/2/manifest.json",
         "type": "Manifest",
         "label": {
           "de": [
-            "Label 2"
+            "[Porträt von Hermann Kreis]"
+          ]
+        }
+      },
+      {
+        "id": "https://iiif.participatory-archives.ch/3/manifest.json",
+        "type": "Manifest",
+        "label": {
+          "de": [
+            "[Porträt von Emilie und Hermann Kreis-Martz]"
           ]
         }
       }
