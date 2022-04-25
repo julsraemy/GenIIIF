@@ -1,18 +1,15 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://raw.githubusercontent.com/Participatory-Image-Archives/pia-data-model/main/iiif/boilerplates/toplevelcollection_boilerplate.json",
+    "id": "https://raw.githubusercontent.com/Participatory-Image-Archives/pia-data-model/main/iiif/boilerplates/collection_boilerplate02.json",
     "type": "Collection",
     "label": {
       "de": [
-        "Kollektion von IIIF Kollektionen des SGV Fotoarchivs"
-      ],
-      "en": [
-        "Collections of IIIF Collections from the SSFS Photo Archives"
+        "IIIF Manifests aus der Sammlung SGV_12 (Ernst Brunner)"
       ]
     },
     "summary": {
         "en": [
-          "IIIF top-level Collection from the SSFS Photo Archives"
+          "IIIF Collection of Manifests from the SGV_12 Ernst Brunner Collection"
         ]
       },
       "provider": [
@@ -65,20 +62,29 @@
       ],
     "items": [
       {
-        "id": "https://raw.githubusercontent.com/Participatory-Image-Archives/pia-data-model/main/iiif/boilerplates/collection_boilerplate01.json",
-        "type": "Collection",
+        "id": "https://iiif.participatory-archives.ch/12033/manifest.json",
+        "type": "Manifest",
         "label": {
           "de": [
-            "IIIF Manifests aus der Sammlung SGV_10 (Familie Kreis)"
+            "[Schwyzer Fasnacht]"
           ]
         }
       },
       {
-        "id": "https://raw.githubusercontent.com/Participatory-Image-Archives/pia-data-model/main/iiif/boilerplates/collection_boilerplate02.json",
-        "type": "Collection",
+        "id": "https://iiif.participatory-archives.ch/12034/manifest.json",
+        "type": "Manifest",
         "label": {
           "de": [
-            "IIIF Manifests aus der Sammlung SGV_12 (Ernst Brunner)"
+            "[Schwyzer Fasnacht]"
+          ]
+        }
+      },
+      {
+        "id": "https://iiif.participatory-archives.ch/12035/manifest.json",
+        "type": "Manifest",
+        "label": {
+          "de": [
+            "[Schwyzer Fasnacht]"
           ]
         }
       }
