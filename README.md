@@ -59,8 +59,8 @@ IIIF-compliant resources are serialised in [JSON-LD](https://json-ld.org/). From
   }
 ```
 
-## Scope
-Adaptation of Leander Seige's [iiifcurator](https://github.com/leanderseige/iiifcurator) which could handle Presentation API V3 resources (only V2 are properly parsed and outputted at the moment).
+## Application
+The application is accessible here: https://github.com/Participatory-Image-Archives/iiifcurator3. It is an adaptation forked from Leander Seige's [iiifcurator](https://github.com/leanderseige/iiifcurator) which could handle Presentation API V3 resources (only V2 are properly parsed and outputted at the moment).
 
 ## References
 - [iiifcurator](https://github.com/leanderseige/iiifcurator)
